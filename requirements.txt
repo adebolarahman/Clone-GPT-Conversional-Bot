@@ -1,0 +1,6 @@
+streamlit_chat
+streamlit
+python-dotenv
+langchain
+openai
+python-decouple
