@@ -24,11 +24,11 @@ llm_chain = LLMChain(
     prompt=prompt
 )
 st.set_page_config(
-    page_title="MyAI Conversational bot",
+    page_title="MyAI Multilanguage Conversational bot",
     page_icon="🤖",
     layout="wide"
 )
-st.title("MyAI Conversational botT")
+st.title("MyAI Multilanguage Conversational bot")
 
 # check for messages in session and create if not exists
 if "messages" not in st.session_state.keys():
